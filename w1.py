@@ -48,4 +48,5 @@ mp = MPNeuron()
 mp.fit(X_train.values, y_train)
 y_pred = mp.predict(X_test.values)
 accuracy = accuracy_score(y_test, y_pred)
+
 print("Test Accuracy:", accuracy)
